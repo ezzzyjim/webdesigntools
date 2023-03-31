@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Contact Us</title>
+    <meta name="description" content="Contact Us">
+    <meta name="author" content="Ezequiel Almanza Jimenez">
+    <link rel="stylesheet" href="layout.css">
+    <!-- Optional Local Stylesheets -->
+
+  </head>
+
+  <body>
+    <header>
+      <h1>Pat Benetar's Inquiry Of Their Life</h1>
+    </header>
+
+    <main>
+        <h2>Benatar Legacy Menu</h2>
+        <nav>
+          <nav class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="faq.html">FAQ's</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contactus.html">Contact-Us</a>
+            <a href="aboutus.html"> About us</a>
+          </nav>
+      <section>
+        <h2>Only way of reaching out is through this forum</h2>
+        <fieldset>
+          <legend>This is a form dedicated to contacting us</legend>
+          <h3>Personal Information</h3>
+          <form id="myMailerForm" method="post" action="mailto:e3043982@student.dcccd.edu">
+            <p>
+              <label title="Enter your first name.">First Name <input type="text" name="Name" placeholder=" First Name"></label>
+              <br>
+              <label> Last Name <input type="text" name="lastname" placeholder=" Last Name"></label>
+            </p>
+            <p>
+              <label title="Enter your email address.">E-Mail <input type="text" name="Email" placeholder="Email"></label>
+            </p>
+            <p>
+              <label title="Select your Chachki">Chachki</label>
+              <select name="ChachkiID">
+                <option value="">&larr;&nbsp;Select Chachki&nbsp;&rarr;</option>
+                <option value="1">Guitar Keychain</option>
+                <option value="2">Microphone Bracelet</option>
+                <option value="3">Crytalized Rose</option>
+              </select>
+            </p>
+            <p>
+              <label title="Select to be reached out."><input type="checkbox" name="contact-me"> Would you like for us to return a personzalized email?</label>
+              <br>
+              <label title="Select a chechki."><input type="checkbox" name="Select chachki"> Would you to receieve a signed chachki? Select on the Chachki List.</label>
+            <h3>What type of inquiry, observation, concern or advice for us ?</h3>
+            <p>
+              <label title="Select if you have an inquiry about Beneatr.">Inquiry <input type="radio" name="request"></label>
+              <br>
+              <label title="Select if you have a observation could be positve and negative.">Observation <input type="radio" name="request"></label>
+              <br>
+              <label title="Select if you have a concern about the website.">Concern <input type="radio" name="request"></label>
+              <br>
+              <label title="Select if you have an advice we could use.">Advice<input type="radio" name="request"></label>
+            </p>
+            <p>
+              <label for="message">Message</label><br>
+              <textarea id="message" name="message"></textarea>
+            </p>
+            <input type="submit" name="submit" value="Send Mail">
+            <input type="reset" value="Erase Me">
+          </form>
+        </fieldset>
+
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; 2023</p>
+    </footer>
+
+  </body>
+
+</html>
